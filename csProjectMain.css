@@ -1,0 +1,249 @@
+
+h{
+    
+ color:lightsteelblue;
+    
+}
+
+span { 
+
+    Font-family:"Futura",Times,serif;
+}
+
+h1 {
+
+   
+    text-align:center; 
+    font-size:80pt;
+    font-style:normal;
+    border-width:1px;
+    border-color:yellow;
+    font-family:"Futura", Times ,serif;
+    background-color:lightyellow;
+    height:auto;
+    width:50%;
+    margin-top:0px;
+}
+
+.profile-image:hover .overlay {
+  position:absolute;
+  background: transparent url('germany.png') no-repeat;
+  cursor: pointer;
+}
+
+h2 { 
+
+
+text-align: center;
+font-size:18pt;
+font-style:italic;
+color:dodgerblue;
+border-color:cornflowerblue;
+    
+
+}
+
+h3 {
+    
+    text-align:center;
+}
+
+ol {
+
+color: cadetblue;
+border-width:thick;
+background-color:beige;
+width:60%;
+transition: width 2s, height 2s;
+height:auto;
+    
+
+}
+
+ol:hover{
+    width:100%;
+    height:auto;
+}
+
+body {
+    
+    background-color:lightcyan;
+    
+}
+
+#scrollmenu {
+    background-color:#333;
+    overflow: scroll;
+    white-space: nowrap;
+    width:40%;
+    margin-left:30%;
+
+}
+
+#scrollmenu a {
+    display: inline-block;
+    color:white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#scrollmenu a:hover {
+    background-color: #777;
+}
+
+.profile-image{
+ position: relative;
+ float:left;
+ width:100%;
+}
+
+.profile-image img {
+  width: 25%;
+  height: auto;
+  border-radius: 500px;
+  display: block;
+}
+    
+.image_hover_bg {
+ background: url("germany.png") ;
+ height: auto;
+ position: absolute;
+ top: 0;
+ width: 40%;
+ z-index: -1;
+ display:none;
+}
+
+.profile-image:hover .image_hover_bg
+{ display:block; }
+
+#firstH3{
+    
+    background-color:beige;
+    font-family:"Futura", Times, serif;
+    
+}
+
+#ol1{
+    
+    font-family:"Futura", Times,serif;
+}
+
+#secondH3{
+    font-family:"Futura", Times,serif; 
+}
+
+.emailInput{
+    
+   text-align:center;
+    margin-left:0pt;
+}
+
+#span2{
+    
+    text-align:center;
+    margin-left:25%;
+    font-family:"Futura",Times,serif;
+}
+
+#submit{
+    margin-left:7%;
+}
+
+
+span.descriptorOfAnalysis{
+    
+    color: darkgreen;
+    text-decoration-style: solid;
+    text-align:center;
+    margin-left:43%;
+    font-weight:900;
+    float:center;
+    margin-top:20px;
+    
+}
+
+#ol2wDB_Connection{
+    
+    background-color:transparent;
+    color:blue1;
+    text-align:center;
+    margin-left:234px;
+    font-size:15pt;
+    margin-top:30px;
+    
+}
+
+.node {
+		cursor: pointer;
+}
+
+.node circle {
+	  fill:darkgreen;
+	  stroke:lightgreen;
+	  stroke-width: 3px;
+}
+
+.node text {
+	  font: 12px sans-serif;
+}
+
+.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 2px;
+}
+
+#queueDiv  {
+    font-family:inherit;
+    font-size:30pt;
+    align-content:center;
+    text-align:center;
+    
+}
+
+#selector1 {
+    
+    margin-left:3%;
+}
+
+#chartcontainer {
+    
+    background-color:skyblue;
+}
+
+#top10 {
+    
+    width:100%;
+    font-size:50pt;
+    margin-bottom:0px;
+    padding-bottom:0;
+    border-bottom-width:thin;
+}
+
+#form1 {
+    
+    float:center;
+    margin-left:43%;
+}
+
+
+ul {
+
+list-style-type: none;
+color: cadetblue;
+border-width:thick;
+background-color:beige;
+width:60%;
+transition: width 2s, height 2s;
+height:auto;
+    
+
+}
+
+ul:hover{
+    width:100%;
+    height:auto;
+}
+
